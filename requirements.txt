@@ -1,42 +1,5 @@
-# CTEM + ZTA Integration POC with Real AI Requirements
-# ===================================================
-# Blog: "Zero Trust + CTEM: Building Security That Validates Itself"
-# Author: Akshay Ram Shivakumar
-
-# Core Data Science and Machine Learning Libraries
-# -----------------------------------------------
-numpy>=1.24.0
-pandas>=2.0.0
-scikit-learn>=1.3.0
-scipy>=1.10.0
-
-# Graph Analysis for Attack Path Modeling
-# ---------------------------------------
-networkx>=3.0
-
-# Python Version Compatibility
-# ----------------------------
-# This project requires Python 3.8 or higher due to:
-# - dataclasses (3.7+) 
-# - typing features (3.8+)
-# - asyncio improvements (3.8+)
-
-# Development and Testing (Optional)
-# ----------------------------------
-# pytest>=7.0.0
-# pytest-asyncio>=0.21.0
-# black>=23.0.0
-# flake8>=6.0.0
-
-# Note: All other dependencies are Python built-in modules:
-# - asyncio (async/await functionality)
-# - logging (comprehensive logging system)
-# - datetime (date/time operations)
-# - typing (type hints and annotations)
-# - dataclasses (data class decorators)
-# - enum (enumeration support)
-# - hashlib (cryptographic hashing)
-# - random (random number generation)
-# - sys (system-specific parameters)
-# - warnings (warning control)
-# - collections (specialized data structures)
+numpy
+pandas
+scikit-learn
+scipy
+networkx
