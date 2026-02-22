@@ -144,13 +144,6 @@ accuracy = rf_model.score(X_test_scaled, y_test)  # Real model accuracy
 feature_importance = rf_model.feature_importances_  # Actual feature weights
 ```
 
-### Machine Learning Libraries Used
-
-- **scikit-learn** v1.3.0+: Core ML algorithms and preprocessing
-- **pandas** v2.0.0+: Data manipulation and analysis
-- **numpy** v1.24.0+: Numerical computing and array operations
-- **scipy** v1.10.0+: Statistical analysis and hypothesis testing
-- **networkx** v3.0+: Graph theory and network analysis algorithms
 
 ## 🚀 Installation & Setup
 
@@ -320,32 +313,6 @@ S3 Bucket (company-sensitive-data)
     ↓ (Data exfiltration - Success: 80%)
 Sensitive PII Data → Overall Chain Success: ~46%
 ```
-
-
-## 🔬 AI Model Performance Metrics
-
-### Real Statistical Outputs
-
-**Vulnerability Clustering Quality:**
-- Silhouette Score: 0.0 - 1.0 (higher = better clustering)
-- Cluster Count: Variable based on data similarity
-- Statistical Significance: P-value < 0.05 for correlations
-
-**Behavioral Anomaly Detection:**
-- Contamination Rate: 0.1 (10% expected anomalies)
-- Detection Confidence: 0.6 - 0.95 range
-- False Positive Rate: Configurable threshold
-
-**Threat Prediction Performance:**
-- Model Accuracy: 70%+ (Random Forest classifier)
-- Feature Importance: Quantified contribution weights
-- Cross-validation: Train/test split validation
-
-**Attack Path Analysis:**
-- Graph Density: Network connectivity measurement
-- Centrality Measures: Node importance quantification
-- Path Risk Scores: Weighted probability calculations
-
 
 
 ### Data Flow Architecture
